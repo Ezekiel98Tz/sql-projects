@@ -13,6 +13,20 @@
             "username": "root",
             "database": "Library",
             "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "sales_db",
+            "name": "SALES MySQL",
+            "username": "root",
+            "password": ""
         }
     ]
 }
