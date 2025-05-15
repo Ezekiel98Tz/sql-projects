@@ -1,6 +1,5 @@
 {
     "sqltools.connections": [
-
         {
             "mysqlOptions": {
                 "authProtocol": "default",
@@ -14,6 +13,20 @@
             "username": "root",
             "password": "",
             "database": "student_results"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "hr_management_dt",
+            "database": "hr_management",
+            "username": "root",
+            "password": ""
         }
     ]
 }
