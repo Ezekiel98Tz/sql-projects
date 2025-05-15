@@ -27,6 +27,20 @@
             "database": "hr_management",
             "username": "root",
             "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "movie_streaming_db",
+            "database": "movie_streaming",
+            "username": "root",
+            "password": ""
         }
     ]
 }
