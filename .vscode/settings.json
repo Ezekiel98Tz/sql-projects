@@ -69,6 +69,20 @@
             "database": "banking_system",
             "username": "root",
             "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "job_portal_analysis_db",
+            "database": "job_portal_analysis",
+            "username": "root",
+            "password": ""
         }
     ]
 }
