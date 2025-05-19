@@ -83,6 +83,20 @@
             "database": "job_portal_analysis",
             "username": "root",
             "password": ""
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "flight_booking_db",
+            "database": "flight_booking",
+            "username": "root",
+            "password": ""
         }
     ]
 }
